@@ -44,6 +44,7 @@ do_command([
     ANDROID_BUILD_TOOL_PATH + "/d8",
     "--output", "build/",
     "--classpath", ANDROID_PLATFORM_PATH + "/android.jar",
+    # TODO: automatic detection of class files
     "build/obj/com/rivten/rawandroid/R$attr.class",
     "build/obj/com/rivten/rawandroid/R$string.class",
     "build/obj/com/rivten/rawandroid/R.class",
