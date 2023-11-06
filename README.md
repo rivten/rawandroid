@@ -40,3 +40,9 @@ adb -e install build/rawandroid.apk
 - command to automatically install, like gradle does
 - dynamic detection of android version targetting
 - more fun !
+
+## Thanks
+
+I could not have made this without those repos :
+- https://github.com/cnlohr/rawdrawandroid
+- https://github.com/ngawung/raylib-android/
